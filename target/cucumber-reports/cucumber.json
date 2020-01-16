@@ -1,0 +1,57 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "I am on Amazon",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6725646000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Amazon HomePage",
+            "match": {
+              "location": "AmazoneHomePageStepsDeffination.i_am_at_Amazon_HomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-16T00:46:54.744Z",
+        "line": 8,
+        "name": "Logo Visibility",
+        "description": "",
+        "id": "amazon-automation;logo-visibility",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 235565800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "logo is visible and I validate",
+            "match": {
+              "location": "AmazoneHomePageStepsDeffination.logo_is_visible_and_I_validate()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Automation",
+    "description": "",
+    "id": "amazon-automation",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/amazon/automationone/cucumberFeature/amazon.feature",
+    "tags": []
+  }
+]
